@@ -6,7 +6,11 @@ global.onOpen = publicUiFunctions.onOpen;
 global.openDialog = publicUiFunctions.openDialog;
 global.openDialogBootstrap = publicUiFunctions.openDialogBootstrap;
 global.openAboutSidebar = publicUiFunctions.openAboutSidebar;
+global.openScreenApp = publicUiFunctions.openScreenApp;
+
 global.getSheetsData = publicSheetFunctions.getSheetsData;
 global.addSheet = publicSheetFunctions.addSheet;
 global.deleteSheet = publicSheetFunctions.deleteSheet;
 global.setActiveSheet = publicSheetFunctions.setActiveSheet;
+global.getActiveRange = publicSheetFunctions.getActiveRange;
+// global.onSelectionChange = publicSheetFunctions.onSelectionChange;

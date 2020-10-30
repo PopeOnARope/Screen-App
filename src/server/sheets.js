@@ -31,3 +31,5 @@ export const setActiveSheet = sheetName => {
     .activate();
   return getSheetsData();
 };
+
+export const getActiveRange = () => SpreadsheetApp.getActiveRange();
